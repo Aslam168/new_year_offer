@@ -122,3 +122,36 @@ section.discount img {
     width: 220px;
     padding: 50px 70px;
 }
+
+
+/* event related styles */
+
+section.event {
+    text-align: center;
+    line-height: 40px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    border-radius: 5px;
+    margin-bottom: 130px;
+}
+
+section.event h2 {
+    font-weight: 600;
+}
+
+section.event span {
+    color: red;
+}
+
+section.event button {
+    border: none;
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.event-content {
+    padding: 80px 0px;
+}

@@ -70,3 +70,55 @@ section.discount img {
     width: 500px;
     margin-top: 40px;
 }
+
+
+/* gift related styles */
+
+.gift{
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Vectorrr.png');
+    border-radius: 8px;
+    margin-bottom: 130px;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    align-items: center;
+}
+
+.gift-content {
+    color: white;
+    padding-left: 60px;
+}
+
+.gift-content h1 {
+    font-size: 40px;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    margin-bottom: 15px;
+    width: 400px;
+    line-height: 55px;
+    letter-spacing: 5px;
+}
+
+.gift-content p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+.gift-content button {
+    background: no-repeat;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    outline: blanchedalmond;
+    margin-left: 25px;
+}
+
+.gift-img img {
+    width: 220px;
+    padding: 50px 70px;
+}

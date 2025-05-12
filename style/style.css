@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+
+/* default CSS styles */
+
+.banner{
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.banner-content {
+    color: white;
+    text-align: center;
+    padding: 220px 0;
+    width: 400px;
+    margin: auto;
+}
+
+.banner-content h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.banner-content h1 {
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+}

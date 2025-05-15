@@ -18,7 +18,11 @@
     background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
 }
 
 .banner-content {
@@ -154,4 +158,68 @@ section.event button {
 
 .event-content {
     padding: 80px 0px;
+}
+
+
+/* offer related styles */
+
+section.offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.offer-left {
+    width: 100%;
+}
+
+.offer-middle {
+    width: 100%;
+}
+
+.offer-right {
+    width: 100%;
+}
+
+.offer-left h3 {
+    color: red;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+section.offer h1 {
+    font-weight: 900;
+    font-family: 'Merriweather';
+    font-size: 32px;
+}
+
+.offer-left p {
+    font-size: 14px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 15px;
+}
+
+.offer-middle img {
+    width: 220px;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+.offer-right h1 {
+    color: red;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.offer-right p {
+    font-size: 14px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.offer-right img {
+    width: 100px;
+    margin-top: 25px;
 }

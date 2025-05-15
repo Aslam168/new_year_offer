@@ -324,3 +324,52 @@ section.product {
 .item img {
     width: 100%;
 }
+
+
+/* subscribe related styles */
+
+.subscribe{
+    background-color:rgba(255, 0, 0, 0.05);
+    border-radius: 10px;
+    margin-bottom: 130px;
+}
+
+.subscribe-content {
+    text-align: center;
+    padding: 70px 150px;
+}
+
+.subscribe-content img {
+    width: 120px;
+}
+
+.subscribe-content h1 {
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 20px;
+    font-family: 'Merriweather';
+    margin-bottom: 20px;
+}
+
+.subscribe-content p {
+    font-size: 14px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 30px;
+}
+
+.subscribe-content input {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 22px 0px 0px 22px;
+    position: relative;
+}
+
+.subscribe-content button {
+    border: none;
+    background: red;
+    padding: 15px 25px;
+    border-radius: 0px 22px 22px 0px;
+    position: relative;
+    margin-left: -4px;
+    color: white;
+}
